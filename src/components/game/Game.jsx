@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Game extends Component {
   constructor(props) {
+    // Do not setState in constructor, only initialize it
     super(props);
     this.state = {
       score: 0,
